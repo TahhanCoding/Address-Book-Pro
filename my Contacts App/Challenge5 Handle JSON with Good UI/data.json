@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "firstName": "Ahmed",
+            "lastName": "Shaban",
+            "gender": "man",
+            "age": "27",
+            "address": {
+                "streetAddress": "849",
+                "city": "Rashid",
+                "state": "Buhyra",
+                "postalCode": "394221"
+            },
+            "phoneNumbers": [
+                { "type": "Home", "number": "7383627627" }
+            ]
+        },
+        {
+            "firstName": "Omar",
+            "lastName": "Saleh",
+            "gender": "man",
+            "age": "24",
+            "address": {
+                "streetAddress": "747",
+                "city": "Smouha",
+                "state": "Alexandria",
+                "postalCode": "545478"
+            },
+            "phoneNumbers": [
+                { "type": "Work", "number": "465478468" }
+            ]
+        },
+        {
+            "firstName": "Ali",
+            "lastName": "Muhammed",
+            "gender": "man",
+            "age": "35",
+            "address": {
+                "streetAddress": "554",
+                "city": "Maadi",
+                "state": "Cairo",
+                "postalCode": "13317"
+            },
+            "phoneNumbers": [
+                { "type": "Home", "number": "169147789" }
+            ]
+        }
+    ]
+}
+
+
+
