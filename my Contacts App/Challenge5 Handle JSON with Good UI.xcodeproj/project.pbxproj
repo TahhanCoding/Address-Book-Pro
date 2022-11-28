@@ -67,10 +67,10 @@
 				3289611E28AD4FEA00B36207 /* ViewController.swift */,
 				3289614C28B0F1B700B36207 /* DetailView.swift */,
 				3289614A28B09ECD00B36207 /* Models.swift */,
-				3289612028AD4FEA00B36207 /* Main.storyboard */,
 				3289612328AD4FEC00B36207 /* Assets.xcassets */,
-				3289614828B08B1900B36207 /* data.json */,
+				3289612028AD4FEA00B36207 /* Main.storyboard */,
 				3289612528AD4FEC00B36207 /* LaunchScreen.storyboard */,
+				3289614828B08B1900B36207 /* data.json */,
 				3289612828AD4FEC00B36207 /* Info.plist */,
 			);
 			path = "Challenge5 Handle JSON with Good UI";
