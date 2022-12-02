@@ -8,6 +8,8 @@
  - edit contact
  - add contact image
  - save contact image
+ 
+ - there was a big problem, rows were unordered because of using dictionaries, converted them into [String]() easier . .. .
  */
 
 import UIKit
@@ -20,23 +22,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return table
     }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Contacts"
-        parseJSON()
+        parseJSON(fileName: "data", fileType: "json")
         view.addSubview(tableView)
         tableView.frame = view.bounds
         tableView.delegate = self
         tableView.dataSource = self
     }
     // JSON
-    private func parseJSON() {
-        guard let path = Bundle.main.path(forResource: "data",ofType: "json") else { return }
+    private func parseJSON(fileName: String, fileType: String) {
+        guard let path = Bundle.main.path(forResource: fileName,ofType: fileType) else { return }
         let url = URL(fileURLWithPath: path)
         do {
-            let jsonData = try Data(contentsOf: url)
-            print(jsonData)
-            result = try JSONDecoder().decode(Result.self,from: jsonData)
+            let Data = try Data(contentsOf: url)
+            result = try JSONDecoder().decode(Result.self,from: Data)
         } catch {
             print("Error: \(error)")
         }
@@ -55,14 +57,33 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let person = result?.data[indexPath.row]
-        let contactBasic = ["First Name:  ": person?.firstName,"Last Name: ": person?.lastName,"Age:": person?.age,"Gender: ": person?.gender]
-        let contactAddress = ["City:  ": person?.address.city,"State:  ": person?.address.state,"Postal Code:  ": person?.address.postalCode,"Street Address:  ": person?.address.streetAddress]
-        let contactPhone = ["Type:  ": person?.phoneNumbers[0].type,"Number:  ": person?.phoneNumbers[0].number]
+        
+        var basic = [String]()
+        var address = [String]()
+        var phone = [String]()
+
+        if let person = result?.data[indexPath.row] {
+             basic = [
+                "First Name: \(person.firstName)",
+                "Last Name: \(person.lastName)",
+                "Age: \(person.age)",
+                "Gender: \(person.gender)"
+            ]
+            address = [
+                "City:  \(person.address.city)",
+                "State: \(person.address.state)",
+                "Postal Code: \(person.address.postalCode)",
+                "Street Address: \(person.address.streetAddress)"
+            ]
+            phone = [
+                "Type: \(person.phoneNumbers[0].type)",
+                "Number: \(person.phoneNumbers[0].number)"
+            ]
+        }
         if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailView") as? DetailView {
-            vc.contactBasic = contactBasic
-            vc.contactAddress = contactAddress
-            vc.contactPhone = contactPhone
+            vc.basic = basic
+            vc.address = address
+            vc.phone = phone
             navigationController?.pushViewController(vc, animated: true)
         }
     }

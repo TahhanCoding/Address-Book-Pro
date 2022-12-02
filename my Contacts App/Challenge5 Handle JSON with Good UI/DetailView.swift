@@ -7,12 +7,15 @@ import UIKit
 class DetailView: UITableViewController {
     
     // Properties
-    var contactBasic = [String: String?]()
-    var contactAddress = [String: String?]()
-    var contactPhone = [String: String?]()
+    var basic = [String]()
+    var address = [String]()
+    var phone = [String]()
+
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     // TableView Functions
@@ -43,27 +46,17 @@ class DetailView: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            let arrayBasic = contactBasic.flatMap({ (key, value) -> [String] in
-            let string = key + (value ?? "value")
-            return [string] 
-            })
-            cell.textLabel?.text = arrayBasic[indexPath.row]
+            cell.textLabel?.text = basic[indexPath.row]
             return cell
-        } else if indexPath.section == 1 {
+        }
+        else if indexPath.section == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            let arrayBasic = contactAddress.flatMap({ (key, value) -> [String] in
-            let string = key + (value ?? "value")
-            return [string]
-            })
-            cell.textLabel?.text = arrayBasic[indexPath.row]
+            cell.textLabel?.text = address[indexPath.row]
             return cell
-        } else {
+        }
+        else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            let arrayBasic = contactPhone.flatMap({ (key, value) -> [String] in
-            let string = key + (value ?? "value")
-            return [string]
-            })
-            cell.textLabel?.text = arrayBasic[indexPath.row]
+            cell.textLabel?.text = phone[indexPath.row]
             return cell
         }
         
