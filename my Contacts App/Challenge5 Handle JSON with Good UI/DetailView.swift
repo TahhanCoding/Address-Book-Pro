@@ -38,6 +38,8 @@ class DetailView: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let numberOfRowsAtSection: [Int] = [4, 4, 2]
         var rows: Int = 0
+        // Make sure that [section] finds a value.
+        // if we have a 4th section, it won't find a rows number in [Int] above.
         if section < numberOfRowsAtSection.count { rows = numberOfRowsAtSection[section] }
         return rows
     }
