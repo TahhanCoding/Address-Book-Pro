@@ -1,15 +1,9 @@
-/*
- 
- ViewController.swift Challenge5 Handle JSON with Good UI Created by Ahmed Shaban on 17/08/2022.
- 
- FUTURE GOALS:
- - Share button
- - Add Contact button and save()
- - Edit contact
- - Contact image
- 
- - there was a big problem, rows were unordered because of using dictionaries, converted them into [String]() easier . .. .
- */
+//
+//  ViewController.swift
+//  Address Book Pro
+//
+//  Created by Ahmed Shaban on 17/08/2022.
+//
 
 import UIKit
 
@@ -25,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Contacts"
-        parseJSON(fileName: "data", fileType: "json")
+        parseJSON(fileName: "Contacts", fileType: "json")
         
         view.addSubview(tableView)
         tableView.frame = view.bounds

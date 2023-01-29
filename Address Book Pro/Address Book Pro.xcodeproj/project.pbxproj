@@ -3,37 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3289611B28AD4FEA00B36207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289611A28AD4FEA00B36207 /* AppDelegate.swift */; };
-		3289611D28AD4FEA00B36207 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289611C28AD4FEA00B36207 /* SceneDelegate.swift */; };
-		3289611F28AD4FEA00B36207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289611E28AD4FEA00B36207 /* ViewController.swift */; };
-		3289612228AD4FEA00B36207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289612028AD4FEA00B36207 /* Main.storyboard */; };
-		3289612428AD4FEC00B36207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289612328AD4FEC00B36207 /* Assets.xcassets */; };
-		3289612728AD4FEC00B36207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289612528AD4FEC00B36207 /* LaunchScreen.storyboard */; };
-		3289614928B08B1900B36207 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3289614828B08B1900B36207 /* data.json */; };
-		3289614B28B09ECD00B36207 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289614A28B09ECD00B36207 /* Models.swift */; };
-		3289614D28B0F1B700B36207 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289614C28B0F1B700B36207 /* DetailView.swift */; };
+		3285F9A22986BBC20045B23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285F9A12986BBC20045B23B /* AppDelegate.swift */; };
+		3285F9A42986BBC20045B23B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285F9A32986BBC20045B23B /* SceneDelegate.swift */; };
+		3285F9A62986BBC20045B23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285F9A52986BBC20045B23B /* ViewController.swift */; };
+		3285F9A92986BBC20045B23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3285F9A72986BBC20045B23B /* Main.storyboard */; };
+		3285F9AB2986BBC50045B23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3285F9AA2986BBC50045B23B /* Assets.xcassets */; };
+		3285F9AE2986BBC50045B23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3285F9AC2986BBC50045B23B /* LaunchScreen.storyboard */; };
+		3285F9B62986BC280045B23B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285F9B52986BC280045B23B /* Models.swift */; };
+		3285F9B82986BC590045B23B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285F9B72986BC590045B23B /* DetailView.swift */; };
+		3285F9BE2986BDC00045B23B /* Contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 3285F9BD2986BDC00045B23B /* Contacts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3289611728AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge5 Handle JSON with Good UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3289611A28AD4FEA00B36207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3289611C28AD4FEA00B36207 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3289611E28AD4FEA00B36207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3289612128AD4FEA00B36207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3289612328AD4FEC00B36207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3289612628AD4FEC00B36207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3289612828AD4FEC00B36207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3289614828B08B1900B36207 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		3289614A28B09ECD00B36207 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		3289614C28B0F1B700B36207 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3285F99E2986BBC20045B23B /* Address Book Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Address Book Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3285F9A12986BBC20045B23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3285F9A32986BBC20045B23B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3285F9A52986BBC20045B23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3285F9A82986BBC20045B23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3285F9AA2986BBC50045B23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3285F9AD2986BBC50045B23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3285F9AF2986BBC50045B23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3285F9B52986BC280045B23B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3285F9B72986BC590045B23B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3285F9BD2986BDC00045B23B /* Contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contacts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3289611428AD4FEA00B36207 /* Frameworks */ = {
+		3285F99B2986BBC20045B23B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,134 +43,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3289610E28AD4FEA00B36207 = {
+		3285F9952986BBC20045B23B = {
 			isa = PBXGroup;
 			children = (
-				3289611928AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI */,
-				3289611828AD4FEA00B36207 /* Products */,
+				3285F9A02986BBC20045B23B /* Address Book Pro */,
+				3285F99F2986BBC20045B23B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3289611828AD4FEA00B36207 /* Products */ = {
+		3285F99F2986BBC20045B23B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3289611728AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI.app */,
+				3285F99E2986BBC20045B23B /* Address Book Pro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3289611928AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI */ = {
+		3285F9A02986BBC20045B23B /* Address Book Pro */ = {
 			isa = PBXGroup;
 			children = (
-				3289611A28AD4FEA00B36207 /* AppDelegate.swift */,
-				3289611C28AD4FEA00B36207 /* SceneDelegate.swift */,
-				3289611E28AD4FEA00B36207 /* ViewController.swift */,
-				3289614C28B0F1B700B36207 /* DetailView.swift */,
-				3289614A28B09ECD00B36207 /* Models.swift */,
-				3289612328AD4FEC00B36207 /* Assets.xcassets */,
-				3289612028AD4FEA00B36207 /* Main.storyboard */,
-				3289612528AD4FEC00B36207 /* LaunchScreen.storyboard */,
-				3289614828B08B1900B36207 /* data.json */,
-				3289612828AD4FEC00B36207 /* Info.plist */,
+				3285F9A12986BBC20045B23B /* AppDelegate.swift */,
+				3285F9A32986BBC20045B23B /* SceneDelegate.swift */,
+				3285F9A52986BBC20045B23B /* ViewController.swift */,
+				3285F9B72986BC590045B23B /* DetailView.swift */,
+				3285F9B52986BC280045B23B /* Models.swift */,
+				3285F9A72986BBC20045B23B /* Main.storyboard */,
+				3285F9AC2986BBC50045B23B /* LaunchScreen.storyboard */,
+				3285F9AA2986BBC50045B23B /* Assets.xcassets */,
+				3285F9BD2986BDC00045B23B /* Contacts.json */,
+				3285F9AF2986BBC50045B23B /* Info.plist */,
 			);
-			path = "Challenge5 Handle JSON with Good UI";
+			path = "Address Book Pro";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3289611628AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI */ = {
+		3285F99D2986BBC20045B23B /* Address Book Pro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3289612B28AD4FEC00B36207 /* Build configuration list for PBXNativeTarget "Challenge5 Handle JSON with Good UI" */;
+			buildConfigurationList = 3285F9B22986BBC50045B23B /* Build configuration list for PBXNativeTarget "Address Book Pro" */;
 			buildPhases = (
-				3289611328AD4FEA00B36207 /* Sources */,
-				3289611428AD4FEA00B36207 /* Frameworks */,
-				3289611528AD4FEA00B36207 /* Resources */,
+				3285F99A2986BBC20045B23B /* Sources */,
+				3285F99B2986BBC20045B23B /* Frameworks */,
+				3285F99C2986BBC20045B23B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Challenge5 Handle JSON with Good UI";
-			productName = "Challenge5 Handle JSON with Good UI";
-			productReference = 3289611728AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI.app */;
+			name = "Address Book Pro";
+			productName = "Address Book Pro";
+			productReference = 3285F99E2986BBC20045B23B /* Address Book Pro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3289610F28AD4FEA00B36207 /* Project object */ = {
+		3285F9962986BBC20045B23B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					3289611628AD4FEA00B36207 = {
-						CreatedOnToolsVersion = 13.3;
+					3285F99D2986BBC20045B23B = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 3289611228AD4FEA00B36207 /* Build configuration list for PBXProject "Challenge5 Handle JSON with Good UI" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 3285F9992986BBC20045B23B /* Build configuration list for PBXProject "Address Book Pro" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3289610E28AD4FEA00B36207;
-			productRefGroup = 3289611828AD4FEA00B36207 /* Products */;
+			mainGroup = 3285F9952986BBC20045B23B;
+			productRefGroup = 3285F99F2986BBC20045B23B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3289611628AD4FEA00B36207 /* Challenge5 Handle JSON with Good UI */,
+				3285F99D2986BBC20045B23B /* Address Book Pro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3289611528AD4FEA00B36207 /* Resources */ = {
+		3285F99C2986BBC20045B23B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3289612728AD4FEC00B36207 /* LaunchScreen.storyboard in Resources */,
-				3289612428AD4FEC00B36207 /* Assets.xcassets in Resources */,
-				3289612228AD4FEA00B36207 /* Main.storyboard in Resources */,
-				3289614928B08B1900B36207 /* data.json in Resources */,
+				3285F9BE2986BDC00045B23B /* Contacts.json in Resources */,
+				3285F9AE2986BBC50045B23B /* LaunchScreen.storyboard in Resources */,
+				3285F9AB2986BBC50045B23B /* Assets.xcassets in Resources */,
+				3285F9A92986BBC20045B23B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3289611328AD4FEA00B36207 /* Sources */ = {
+		3285F99A2986BBC20045B23B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3289611F28AD4FEA00B36207 /* ViewController.swift in Sources */,
-				3289611B28AD4FEA00B36207 /* AppDelegate.swift in Sources */,
-				3289611D28AD4FEA00B36207 /* SceneDelegate.swift in Sources */,
-				3289614D28B0F1B700B36207 /* DetailView.swift in Sources */,
-				3289614B28B09ECD00B36207 /* Models.swift in Sources */,
+				3285F9A62986BBC20045B23B /* ViewController.swift in Sources */,
+				3285F9A22986BBC20045B23B /* AppDelegate.swift in Sources */,
+				3285F9A42986BBC20045B23B /* SceneDelegate.swift in Sources */,
+				3285F9B82986BC590045B23B /* DetailView.swift in Sources */,
+				3285F9B62986BC280045B23B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3289612028AD4FEA00B36207 /* Main.storyboard */ = {
+		3285F9A72986BBC20045B23B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3289612128AD4FEA00B36207 /* Base */,
+				3285F9A82986BBC20045B23B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3289612528AD4FEC00B36207 /* LaunchScreen.storyboard */ = {
+		3285F9AC2986BBC50045B23B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3289612628AD4FEC00B36207 /* Base */,
+				3285F9AD2986BBC50045B23B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,13 +178,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3289612928AD4FEC00B36207 /* Debug */ = {
+		3285F9B02986BBC50045B23B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -228,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -238,13 +238,13 @@
 			};
 			name = Debug;
 		};
-		3289612A28AD4FEC00B36207 /* Release */ = {
+		3285F9B12986BBC50045B23B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -282,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +292,7 @@
 			};
 			name = Release;
 		};
-		3289612C28AD4FEC00B36207 /* Debug */ = {
+		3285F9B32986BBC50045B23B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,11 +301,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V92LW66S55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Challenge5 Handle JSON with Good UI/Info.plist";
+				INFOPLIST_FILE = "Address Book Pro/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eng.a.tahan-gmail.Challenge5-Handle-JSON-with-Good-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a.sh.tahan-gmail.Address-Book-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +320,7 @@
 			};
 			name = Debug;
 		};
-		3289612D28AD4FEC00B36207 /* Release */ = {
+		3285F9B42986BBC50045B23B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,11 +329,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V92LW66S55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Challenge5 Handle JSON with Good UI/Info.plist";
+				INFOPLIST_FILE = "Address Book Pro/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eng.a.tahan-gmail.Challenge5-Handle-JSON-with-Good-UI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a.sh.tahan-gmail.Address-Book-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +351,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3289611228AD4FEA00B36207 /* Build configuration list for PBXProject "Challenge5 Handle JSON with Good UI" */ = {
+		3285F9992986BBC20045B23B /* Build configuration list for PBXProject "Address Book Pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3289612928AD4FEC00B36207 /* Debug */,
-				3289612A28AD4FEC00B36207 /* Release */,
+				3285F9B02986BBC50045B23B /* Debug */,
+				3285F9B12986BBC50045B23B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3289612B28AD4FEC00B36207 /* Build configuration list for PBXNativeTarget "Challenge5 Handle JSON with Good UI" */ = {
+		3285F9B22986BBC50045B23B /* Build configuration list for PBXNativeTarget "Address Book Pro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3289612C28AD4FEC00B36207 /* Debug */,
-				3289612D28AD4FEC00B36207 /* Release */,
+				3285F9B32986BBC50045B23B /* Debug */,
+				3285F9B42986BBC50045B23B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3289610F28AD4FEA00B36207 /* Project object */;
+	rootObject = 3285F9962986BBC20045B23B /* Project object */;
 }
